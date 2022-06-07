@@ -1,0 +1,33 @@
+header {
+    background: #9EB23B;
+}
+
+nav {
+    background: #C7D36F;
+}
+
+section {
+    background: #FCF9C6;
+    grid-column: 1/4;
+}
+
+aside {
+    background: #E0DECA;
+    grid-column: 4/5;
+}
+
+footer {
+    background: #9EB23B;
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.foto {
+    width: 627px;
+    aspect-ratio: auto 112 / 180;
+    height: 638px;
+}
